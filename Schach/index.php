@@ -190,10 +190,7 @@
             </div>
         </div>
 </div>
-<div class="alert alert-info alert-dismissable fade in">
-    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-    <strong>Info!</strong> This alert box could indicate a neutral informative change or action.
-  </div>
+
 
 
 

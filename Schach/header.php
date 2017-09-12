@@ -13,7 +13,7 @@
     </head>
     
     <body>
-        
+  <div class="headertop">        
 <nav class="navbar navbar-inverse bg-primary">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -58,6 +58,6 @@
 </nav>
       
 
-
+    </div>
 <?php wp_head(); ?>
      <!-- End Header. Begin Template Content -->

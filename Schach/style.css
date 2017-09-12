@@ -18,7 +18,13 @@ body { text-align: center;
         height 100%;
 
 }
-
+.headertop {
+    position:fixed;
+    width: 100%;
+    left:0;
+    top:0;
+    
+}
 
 #content {float: center; background-color:white; }
 .title { font-size: 11pt; font-family: verdana; font-weight: bold; }
