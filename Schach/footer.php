@@ -1,62 +1,72 @@
  <?php wp_footer(); ?>
 
 <div class="container">
-    <section style="height:80px;"></section>
-	<div class="row" style="text-align:center;">
-		<h2>Bootstrap Dark Footer UI</h2>
+    
+	
 	</div>
     <!----------- Footer ------------>
-    <footer class="footer-bs">
-        <div class="row">
-        	<div class="col-md-3 footer-brand animated fadeInLeft">
-            	<h2>Logo</h2>
-                <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
-                <p>© 2014 BS3 UI Kit, All rights reserved</p>
-            </div>
-        	<div class="col-md-4 footer-nav animated fadeInUp">
-            	<h4>Menu —</h4>
-            	<div class="col-md-6">
-                    <ul class="pages">
-                        <li><a href="#">Travel</a></li>
-                        <li><a href="#">Nature</a></li>
-                        <li><a href="#">Explores</a></li>
-                        <li><a href="#">Science</a></li>
-                        <li><a href="#">Advice</a></li>
-                    </ul>
-                </div>
-            	<div class="col-md-6">
-                    <ul class="list">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Contacts</a></li>
-                        <li><a href="#">Terms & Condition</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-        	<div class="col-md-2 footer-social animated fadeInDown">
-            	<h4>Follow Us</h4>
-            	<ul>
-                	<li><a href="#">Facebook</a></li>
-                	<li><a href="#">Twitter</a></li>
-                	<li><a href="#">Instagram</a></li>
-                	<li><a href="#">RSS</a></li>
-                </ul>
-            </div>
-        	<div class="col-md-3 footer-ns animated fadeInRight">
-            	<h4>Newsletter</h4>
-                <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
-                <p>
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="Search for...">
-                      <span class="input-group-btn">
-                        <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-envelope"></span></button>
-                      </span>
-                    </div><!-- /input-group -->
-                 </p>
-            </div>
-        </div>
-    </footer>
-    <section style="text-align:center; margin:10px auto;"><p>Designed by <a href="http://enfoplus.net">Prince J. Sargbah</a></p></section>
+    <section id="footer" style="background-color:#292b34;">
+        <div class="container">
+    		<center style="color:#fff;">
+    		<div class="container">
+    		    <div class="well well-sm main-footer"  style="background-color:#292b34; border:0px">
+    		      
+    		      
+    		                <div class="row">
+    		                    <div class="col-md-4">
+    		                        <p>Der Verein ist im Vereinsregister eingetragen unter:</p>
+                                    <p>Amtsgericht Offenbach am Main</p>
+                                    <p> 5 VR 1026</p>
+                                    <p>Amtsgericht Offenbach am Main</p>
+                                
+    		                    </div><!--end .col-md-4-->
+                                
+    		                   <div class="col-md-4">
+    		                        <div class="row contact row-first">
+    		                            <div class="col-md-12">
+    		                                  <p><a href="mailto: 1.vorsitzender@vsg-1880-offenbach.de">mail@vsgo.de</a></p>
+    		                            </div><!--end .col-md-6-->
+    		                           
+    		                        </div><!--end .row .contact .row-first-->
+    		                        <div class="row contact row-second">
+    		                            <div class="col-md-12">
+    		                                 <h3>© Copyright M. Rich & K. Reyem</h3>
+    		                            </div><!--end .col-md-12-->
+    		                          
+    		                        </div><!--end .row .contact-->
+    		                    </div><!--end .col-md-6-->
+                                
+                                
+    		                    <div class="col-md-4">
+    		                        <div class="row contact row-first">
+    		                            <div class="col-md-6">
+    		                                <a href="https://www.facebook.com/" class="skype"><i class="fa fa-skype"></i>Facebook</a>
+    		                            </div><!--end .col-md-6-->
+    		                            <div class="col-md-6">
+    		                                <a href="http://www.vsg-1880-offenbach.de/" class="instagram"><i class="fa fa-instagram"></i>Unsere Alte Seite</a>
+    		                            </div><!--end .col-md-6-->
+    		                        </div><!--end .row .contact .row-first-->
+    		                        <div class="row contact row-second">
+    		                            <div class="col-md-6">
+    		                                <a href="https://www.google.de/maps/dir//Arthur-Zitscher-Stra%C3%9Fe+22,+63065+Offenbach+am+Main/@50.1068585,8.7696899,16z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x47bd11fda228386f:0x4df033e30aee111e!2m2!1d8.7740673!2d50.1068586?hl=de" class="facebook"><i class="fa fa-facebook"></i>Anfahrt</a>
+    		                            </div><!--end .col-md-6-->
+    		                            <div class="col-md-6">
+    		                                <a href="https://www.google.de/" class="twitter"><i class="fa fa-twitter"></i>Noch Fragen?</a>
+    		                            </div><!--end .col-md-6-->
+    		                        </div><!--end .row .contact-->
+    		                    </div><!--end .col-md-6-->
+    		                </div><!--end .row-->
+    		            </div><!--end .col-md-12-->
+    		        </div><!--end .row-->
+    		   
+    		
+    	
+    </section><!--end #footer-->
+    <!-- Sticky Footer -->
+    <script type="text/javascript" src="js/footer.js"></script>
+    <!-- Fade Contact Footer -->
+    <script type="text/javascript" src="js/contactFade.js"></script>
+    
 
 </div>
 </body>

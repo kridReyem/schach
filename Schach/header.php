@@ -14,7 +14,7 @@
     
     <body>
         
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse bg-primary">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -56,27 +56,8 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-      <h1>VSG Offenbach Schachverein</h1>
-        <div class="row">
-            <div class="col-md-8">
-            <p>Hallo dies ist ein Test!</p>
-            
-            </div>
-        <div class="col-md-4">
-            <p> hallo des ist auch ein Test!</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8">
-            <p>Hallo dies ist ein Test!</p>
-            
-            </div>
-        <div class="col-md-4">
-            <p> hallo des ist auch ein Test!</p>
-            </div>
-        </div>
+      
 
 
-    </div>
 <?php wp_head(); ?>
      <!-- End Header. Begin Template Content -->
